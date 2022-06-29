@@ -1,0 +1,85 @@
+
+.Container-footer{
+    background-color: rgb(58, 39, 69);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.Container-footer div{
+    
+    width: 75%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.Container-footer div section{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(126, 126, 126);
+    gap: 0.1rem;
+}
+.Container-footer div section  h2{
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(172, 172, 172);
+}
+.Container-footer div section  ul{
+    list-style: none;
+}
+
+.Container-footer div section  li{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.Container-footer div section img{
+    height: 150px;
+}
+
+#foot{
+    width: 75%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(121, 118, 118);
+    color: white;
+}
+
+#foot div{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#foot div img{
+    height: 30px;
+                width: 15%;
+}
+
+
+.title-footer{
+    font-weight: 200;
+    color: rgb(112, 112, 112);
+}
+
+.sup{
+    margin-top: -8.6rem;
+}
+
+.icons{
+    
+}
+
+.div-icons{
+    display: flex;
+     width: 2rem;
+}

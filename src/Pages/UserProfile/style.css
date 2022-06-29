@@ -1,0 +1,15 @@
+
+
+.icons{
+    margin-top: 1rem;
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+
+    
+}
+
+
+.icons:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
+ 
+
+.subscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	width: 100%;
+    margin: 0 auto;
+	height: 15rem;
+    border-top: 0.1rem solid #ddd;
+    background: #5C0F8B;
+}
+
+
+.subscribe__title {
+	font-weight: 300; 
+	font-size: 26px;
+    color: #fff;
+	margin-bottom: 18px;
+}
+
+.subscribe__copy {
+	max-width: 450px;
+	text-align: center;
+	margin-bottom: 53px;
+	line-height: 1.5;
+}
+
+.form {
+	margin-bottom: 20px;
+    width: 43%;
+    display: flex;
+    align-items:center;
+    align-self: center;
+    justify-content:space-between;
+}
+
+.form__email {
+
+    width: 400px;
+    height: 30px;
+    padding: 1.5rem;
+	 
+}
+
+.form__email:focus {
+	outline: 1px solid #3D9FFF;
+}
+
+.form__button {
+	background: #002;
+	width: 15rem;
+    height: 48px;
+    font-weight: 200;   
+    position: relative;
+    top: -4.5px; 
+}
+
+.form__button:hover {
+	box-shadow: 0 10px 20px rgba(36, 41, 45, 0.7);
+}
+ 

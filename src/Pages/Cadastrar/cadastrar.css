@@ -1,0 +1,14 @@
+.cadastrar-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../assets/foto4.jpg);
+    position: fixed;
+    z-index: auto;
+    left: 0;
+    top: 0;
+}
+
+.cadastrar-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
